@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+  }
+  
+  .username {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .username h6 {
+    margin-top: 2px;
+  }
+  
+  .divider {
+    margin: 10px 0;
+    border: 1px solid #ccc;
+  }
+  
+  .section {
+    padding: 20px;
+    border: 1px solid #007bff;
+    border-radius: 8px;
+    margin: 15px 0;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .section span p {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #007bff;
+  }
+  
+  .data {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .first,
+  .second {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .first h3 {
+    margin: 0;
+    font-size: 2em;
+    color: #28a745;
+  }
+  
+  .profit {
+    color: #28a745;
+  }
+  
+  .second p {
+    margin: 5px 0;
+  }
+  
+  .second span {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .data {
+      flex-direction: column;
+    }
+  
+    .first,
+    .second {
+      width: 100%;
+      justify-content: flex-start; /* Align content to the start */
+    }
+  
+    .first h3,
+    .second p {
+      text-align: left;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .first h3 {
+      font-size: 1.5em; /* Adjusting font size for smaller screens */
+    }
+  
+    .second p {
+      font-size: 0.9em; /* Further reduce font size */
+    }
+  
+    .section {
+      padding: 15px; /* Less padding for small devices */
+    }
+  
+    .first, .second {
+      flex-direction: column; /* Stack items vertically */
+      align-items: flex-start; /* Align items to the start */
+    }
+  
+    .first h3 {
+      margin-bottom: 10px; /* Add some spacing */
+    }
+  }
+  

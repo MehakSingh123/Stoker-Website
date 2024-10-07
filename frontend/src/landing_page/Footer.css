@@ -1,0 +1,67 @@
+/* .container a{
+    text-decoration: none;
+    color: black;
+    line-height: 2;
+    
+}
+.link{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin-bottom: 1rem;
+    
+}
+.link a{
+    padding-left: 2rem;
+    font-size:small;
+    
+} */
+/* Add necessary styles for the Footer component */
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  
+  }
+  
+  .footer-links a {
+    margin: 5px 15px;
+    color: #333 !important;
+    text-decoration: none !important;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+    color: #333 !important;
+  }
+  
+  .footer-info {
+    font-size: 14px;
+  }
+  
+  .footer-info p {
+    margin-bottom: 15px;
+  }
+  .good a{
+    text-decoration: none !important;
+    color: black;
+  }
+  
+  
+  
+  @media (max-width: 576px) {
+    .footer-info p {
+      font-size: 12px;
+    }
+  
+    .footer-links a {
+      margin: 5px;
+      font-size: 12px;
+    }
+    .container .footerimage img{
+      width:120px !important;
+    }
+  }
+  

@@ -1,0 +1,7 @@
+@media (max-width:350px) {
+    .img-fluid{
+        width: 900px !important;
+        height: 120px !important;
+      
+    }
+}

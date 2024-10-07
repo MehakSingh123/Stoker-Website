@@ -1,0 +1,5 @@
+@media(max-width:800px){
+    .navbar .container img{
+        width:120px !important;
+    }
+}

@@ -1,0 +1,13 @@
+@media(max-width:500px){
+    .container .price{
+    
+       margin-top: 2rem  !important;
+       
+       padding-left: 2.5rem !important;
+       padding-right: 2rem !important;
+    }
+    .container .price .price2{
+        padding: 1rem !important;
+    }
+    
+}

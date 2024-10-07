@@ -1,0 +1,15 @@
+.container .row .media-img {
+    padding: 25px;
+  }
+  
+  .img-fluid {
+    width: 70%;
+    height: auto;
+  }
+  
+  @media (min-width: 768px) {
+    .col-md-4 {
+      margin-bottom: 20px;
+    }
+  }
+  

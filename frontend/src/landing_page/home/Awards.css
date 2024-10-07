@@ -1,0 +1,26 @@
+@media (max-width:500px){
+.container .row .media-image img{
+    width:120%  !important;
+    margin-left: -2rem;
+        
+    }
+    .container .row .normal-img{
+        width: 100% !important;
+        height: 80% !important;
+    }
+}
+@media (min-width:500px){
+    .container .row .media-image img{
+        width:110%  !important;
+        margin-left: -2rem;
+            
+        }
+    
+
+    }
+.container .row .normal-img{
+    width: 100% !important;
+}
+
+
+

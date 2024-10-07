@@ -1,0 +1,20 @@
+@media(max-width:500px){
+    .container .row .picture  img{
+        display: flex !important;
+     }
+     .container .row .picture .appstore{
+        margin-top: 10px;
+        width: 135px;
+     }
+
+}
+@media(min-width:1000px){
+    .container .row .picture .appstore{
+        margin-left: 50px;
+    }
+
+}
+
+
+
+

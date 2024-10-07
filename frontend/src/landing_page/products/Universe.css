@@ -1,0 +1,7 @@
+@media (max-width: 768px) {
+    .small-screen-img {
+      width: 50% !important;
+      height: 50% !important;
+    }
+  }
+  

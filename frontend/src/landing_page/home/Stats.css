@@ -1,0 +1,19 @@
+@media(max-width:500px){
+    .container .trust h1{
+        font-size: 2rem !important;
+       
+    }
+    .container .row div{
+       padding-right:0rem !important;
+       padding-left:1rem !important;
+       
+    }
+    .container .ownimage img{
+        width:100% !important
+    }
+    .container .row .text-center a{
+       text-align: center !important;
+       font-size: 1rem !important;
+       margin-left: 0rem;
+    }
+}
